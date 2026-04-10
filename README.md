@@ -22,8 +22,8 @@ Play the classic **Sequence** board game online with friends! Create a room, sha
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/sequence-game.git
-cd sequence-game
+git clone https://github.com/Pavan20045/sequence.git
+cd sequence
 
 # Install dependencies
 npm install
@@ -71,7 +71,7 @@ vercel --prod
 
 ```bash
 # Add HF remote
-git remote add hf https://huggingface.co/spaces/YOUR_USERNAME/sequence-game
+git remote add hf https://huggingface.co/spaces/PavanRocks2045/Sequence
 
 # Push
 git push hf main

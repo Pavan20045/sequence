@@ -1,5 +1,8 @@
 // ===== SEQUENCE GAME — CLIENT =====
-const socket = io();
+const backendUrl = window.location.hostname.includes('vercel.app') 
+  ? 'https://pavanrocks2045-sequence.hf.space' 
+  : undefined;
+const socket = io(backendUrl);
 
 // ===== CONSTANTS =====
 const SUIT_SYMBOLS = { S: '♠', H: '♥', D: '♦', C: '♣' };

@@ -1,5 +1,6 @@
 const express = require('express');
 const http = require('http');
+const path = require('path');
 const { Server } = require('socket.io');
 const {
   BOARD_LAYOUT, createDeck, getHandSize, createEmptyBoard,
@@ -11,7 +12,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-app.use(express.static('public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 const rooms = {};
 

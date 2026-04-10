@@ -1,3 +1,13 @@
+---
+title: Sequence
+emoji: 🎴
+colorFrom: purple
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # 🎴 Sequence — Online Multiplayer Board Game
 
 Play the classic **Sequence** board game online with friends! Create a room, share the link, and enjoy real-time multiplayer gameplay.
